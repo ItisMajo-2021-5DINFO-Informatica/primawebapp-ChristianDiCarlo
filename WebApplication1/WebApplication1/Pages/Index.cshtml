@@ -1,0 +1,19 @@
+﻿@page
+@model WebApplication1.Pages.IndexModel
+@{
+}
+<html>
+<body>
+    <h1> Cerea, neh !!!</h1>
+    <p> Vai alla pagina <a href="/Risposta"> risposta </a> </p>
+    <form action="/Risposta" method="get">
+        <a> Saluta </a> <br />
+        <input type="text" name="testo" /> <br />
+        <a> Nome </a> <br />
+        <input type="text" name="Nome" /> <br />
+        <a> Cognome </a> <br />
+        <input type="text" name="Cognome" />
+        <input type="submit" />
+    </form>
+</body>
+</html>
